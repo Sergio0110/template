@@ -1,0 +1,14 @@
+:root {
+  --main-color-text: #FFFFFF;
+  --black-color-text: #383A4C;
+  --color-button-blue: #15A9CB;
+  --color-link: #4A76A8;
+  --box-shaddow: rgba(21, 169, 203, 0.30);
+}
+
+/* 
+var(--main-color-text);
+var(--black-color-text);
+var(--color-button-blue);
+var(--color-link);
+var(--box-shaddow); */

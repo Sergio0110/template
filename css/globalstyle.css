@@ -80,3 +80,15 @@ section {
   margin: 0 auto;
   padding: 70px 200px;
 }
+
+.container-spare {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 40px 200px;
+}
+
+.container-mini {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 45px 200px;
+}

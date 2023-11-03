@@ -2,3 +2,55 @@
   background-image: url('../img/background-footer.jpg');
   max-width: 1600px;
 }
+
+.footer__company {
+  text-align: center;
+  color: var(--main-color-text);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140.625%; /* 16.875px */
+}
+
+.footer__made-by {
+  color: var(--main-color-text);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140.625%; /* 16.875px */
+}
+
+.footer__number {
+  color: var(--main-color-text);
+  /* text-align: center; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__call-me {
+  text-decoration: underline;
+  text-align: center;
+  color: var(--main-color-text);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__contacts {
+  text-align: center;
+}
+
+.footer__union {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.footer__bunch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
