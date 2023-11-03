@@ -4,11 +4,12 @@
   --color-button-blue: #15A9CB;
   --color-link: #4A76A8;
   --box-shaddow: rgba(21, 169, 203, 0.30);
+  --gray-text: rgba(255, 255, 255, 0.50);
 }
 
 /* 
 var(--main-color-text);
 var(--black-color-text);
 var(--color-button-blue);
-var(--color-link);
+var(--gray-text);
 var(--box-shaddow); */

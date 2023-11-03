@@ -33,7 +33,7 @@
   border-radius: 50px;
   border: 1.382px solid var(--main-color-text);
   padding-left: 26px;
-  color: rgba(255, 255, 255, 0.50);
+  color: var(--gray-text);
   font-size: 22px;
   font-weight: 400;
   line-height: normal;
