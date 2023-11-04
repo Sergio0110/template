@@ -1,6 +1,7 @@
 .footer {
   background-image: url('../img/background-footer.jpg');
   min-width: 1600px;
+  padding: 45px 0;
 }
 
 .footer__company {

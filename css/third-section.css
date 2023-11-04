@@ -1,6 +1,7 @@
 .third-section {
   position: relative;
   background-image: url('../img/second-img.jpg');
+  padding: 70px 0;
 }
 
 .third-section__post {
