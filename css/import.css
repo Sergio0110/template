@@ -1,8 +1,8 @@
 @import url(globalstyle.css);
-@import url(normalize.css);
-@import url(first-section.css);
 @import url(style.css);
-@import url(second-section.css);
-@import url(third-section.css);
-@import url(footer.css);
 @import url(var.css);
+@import url(normalize.css);
+@import url(present.css);
+/* @import url(main.css);
+@import url(contacts.css);
+@import url(footer.css); */

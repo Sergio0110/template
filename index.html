@@ -12,64 +12,66 @@
   <title>Template</title>
 </head>
 <body>
-  <section class="first-section">
+  <section class="present">
     <div class="container">
-      <div class="first-section__header">
-          <img src="./img/logo-main.svg" alt="логотип">
-        <div class="first-section__contacts">
-          <p class="first-section__number">
+      <div class="present__header">
+          <div class="present__logo">
+            <img src="./img/logo-main.svg" alt="логотип">
+          </div>
+        <div class="present__contacts">
+          <p class="present__number">
             +7 (962) 556 - 1234
           </p>
-          <a href="#" class="first-section__call-me">Перезвоните мне</a>
+          <a href="#" class="present__call-me">Перезвоните мне</a>
         </div>
       </div>
 
-      <div class="first-section__title">
-        <h1 class="first-section__title-text">
+      <div class="present__title">
+        <h1 class="present__title-text">
           Заголовок c уникальным торговым предложением по системе 4U
         </h1>
-        <p class="first-section__subtitle-text">
+        <p class="present__subtitle-text">
           Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.
         </p>
       </div>
-      <button class="first-section__button">Подробнее</button>
+      <button class="present__button">Подробнее</button>
     </div>   
   </section>
   
-  <section class="second-section">
+  <section class="main">
     <div class="container">
-      <h2 class="second-section__title">
+      <h2 class="main__title">
         Уникальный заголовок для преимущества компании
       </h2>
-      <figure class="second-section__about">
+      <figure class="main__about">
         <img src="./img/hyphen.svg" alt="">
-        <figcaption class="second-section__about-text">О нас</figcaption>
+        <figcaption class="main__about-text">О нас</figcaption>
         <img src="./img/hyphen.svg" alt="">
       </figure>
-      <p class="second-section__paragraph">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать <br> несколько абзацев более менее осмысленного текста рыбы на русском языке, а <br>начинающему оратору отточить.</p>
-      <div class="second-section__number-of-container">
-        <div class="second-section__block-circle">
-          <figure class="second-section__group-img-sign">
+      <p class="main__paragraph">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать <br> несколько абзацев более менее осмысленного текста рыбы на русском языке, а <br>начинающему оратору отточить.</p>
+      <div class="main__number-of-container">
+        <div class="main__block-circle">
+          <figure class="main__group-img-sign">
             <img src="./img/label1.svg" alt="">
-            <figcaption class="second-section__sign-text">
+            <figcaption class="main__sign-text">
               Первое целевое <br> преимущество
             </figcaption>
           </figure>
-          <figure class="second-section__group-img-sign">
+          <figure class="main__group-img-sign">
             <img src="./img/label2.svg" alt="">
-            <figcaption class="second-section__sign-text">
+            <figcaption class="main__sign-text">
               Второе целевое <br> преимущество
             </figcaption>
           </figure>
-          <figure class="second-section__group-img-sign">
+          <figure class="main__group-img-sign">
             <img src="./img/label3.svg" alt="">
-            <figcaption class="second-section__sign-text">
+            <figcaption class="main__sign-text">
               Третье целевое <br> преимущество
             </figcaption>
           </figure>
-          <figure class="second-section__group-img-sign">
+          <figure class="main__group-img-sign">
             <img src="./img/label4.svg" alt="">
-            <figcaption class="second-section__sign-text">
+            <figcaption class="main__sign-text">
               Четвертое целевое <br> преимущество
             </figcaption>
           </figure>
@@ -78,20 +80,20 @@
     </div>
   </section>
 
-  <section class="third-section">
+  <section class="contacts">
     <div class="container">
-      <div class="third-section__post">
-        <h2 class="third-section__title-text">Остались вопросы?</h2>
+      <div class="contacts__post">
+        <h2 class="contacts__title-text">Остались вопросы?</h2>
       </div>
       <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
-        <legend class="third-section__subtitle-text">Оставьте номер телефона, и мы перезвоним вам</legend>
-        <div class="third-section__select-data">
-          <label for="name"><input class="third-section__decor" type="text" name="name" id="name" placeholder="Ваше имя" required></label>
-          <label for="number"><input class="third-section__decor" type="tel" name="number" id="number" placeholder="Телефон" required title="+7...-...-..-.." pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$"></label>
-          <label for="E-mail"><input class="third-section__decor" type="text" name="E-mail" id="E-mail" placeholder="E-mail" required></label>
+        <legend class="contacts__subtitle-text">Оставьте номер телефона, и мы перезвоним вам</legend>
+        <div class="contacts__select-data">
+          <label for="name"><input class="contacts__decor" type="text" name="name" id="name" placeholder="Ваше имя" required></label>
+          <label for="number"><input class="contacts__decor" type="tel" name="number" id="number" placeholder="Телефон" required title="+7...-...-..-.." pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$"></label>
+          <label for="E-mail"><input class="contacts__decor" type="text" name="E-mail" id="E-mail" placeholder="E-mail" required></label>
         </div>
-        <button class="third-section__button" input type="submit">позвоните мне</button>
-        <p class="third-section__p">Я даю свое <a href="#" class="third-section__agreement">согласие</a> на обработку персональных данных</p>
+        <button class="contacts__button" input type="submit">позвоните мне</button>
+        <p class="contacts__p">Я даю свое <a href="#" class="contacts__agreement">согласие</a> на обработку персональных данных</p>
       </form>
     </div>
   </section>

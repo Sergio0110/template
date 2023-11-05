@@ -1,9 +1,9 @@
-.second-section {
+.main {
   padding-top: 55px;
   padding-bottom: 85px;
 }
 
-.second-section__title {
+.main__title {
   color: var(--black-color-text);
 text-align: center;
 font-family: Roboto;
@@ -14,14 +14,14 @@ line-height: normal;
 margin-bottom: 25px;
 }
 
-.second-section__about {
+.main__about {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 35px;
 }
 
-.second-section__about-text {
+.main__about-text {
   color: var(--black-color-text);
   text-align: center;
   font-size: 22px;
@@ -29,7 +29,7 @@ margin-bottom: 25px;
   line-height: normal;
 }
 
-.second-section__paragraph {
+.main__paragraph {
   color: var(--black-color-text);
   text-align: center;
   font-style: normal;
@@ -39,20 +39,20 @@ margin-bottom: 25px;
   margin-bottom: 50px;
 }
 
-.second-section__block-circle {
+.main__block-circle {
   display: flex;
   justify-content: center;
   gap: 124px;
 }
 
-.second-section__group-img-sign {
+.main__group-img-sign {
   display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 16px;
 }
 
-.second-section__sign-text {
+.main__sign-text {
   color: var(--black-color-text);
   text-align: center;
   font-size: 20px;
