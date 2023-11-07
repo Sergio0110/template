@@ -3,6 +3,6 @@
 @import url(var.css);
 @import url(normalize.css);
 @import url(present.css);
-/* @import url(main.css);
+@import url(main.css);
 @import url(contacts.css);
-@import url(footer.css); */
+@import url(footer.css); 
