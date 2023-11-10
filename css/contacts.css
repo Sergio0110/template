@@ -1,5 +1,6 @@
 .contacts {
-  position: relative;
+  background-repeat:no-repeat;
+  background-size: cover;
   background-image: url('../img/second-img.jpg');
   padding: 70px 0;
 }
@@ -47,7 +48,11 @@
   flex-direction: column;
   align-items: center;
   gap: 21px;
-  margin-bottom: 148px;
+  margin-bottom: 14px;
+}
+
+.contacts__e-mail {
+  margin-bottom: 50px;
 }
 
 .contacts__button {
@@ -61,10 +66,7 @@
   border-radius: 50px;
   background: var(--color-button-blue);
   box-shadow: 0px 4px 25px 0px var(--box-shaddow);
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 144px;
+  margin-bottom: 50px;;
 }
 
 .contacts__p {

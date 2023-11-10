@@ -1,20 +1,20 @@
 
-
 .header {
-  position: relative;
+  background-repeat:no-repeat;
+  background-size: cover;
   background-image: url('../img/main-img.jpg');
   padding-top: 40px;
-  display: flex;
-  justify-content: center; 
-  
+  padding-bottom: 120px;
 }
 
 .header__menu {
+  margin: 0 auto;
   width: 1200px;
   display: flex;
   justify-content: center;
   gap: 924px;
   margin-bottom: 120px;
+  
 }
 
 .header__contacts {
@@ -67,7 +67,7 @@
   font-weight: 400;
   line-height: 140.625%; /* 30.938px */
   text-align: center;
-  margin-bottom: 258px;
+  margin-bottom: 55px;
 }
 
 .header__button {
@@ -81,10 +81,6 @@
   border-radius: 50px;
   background: var(--color-button-blue);
   box-shadow: 0px 4px 25px 0px var(--box-shaddow);
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 120px;
 }
 
 /* 1024 */
