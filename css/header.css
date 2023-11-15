@@ -11,7 +11,7 @@
 
 .header__container {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1600px;
   display: flex;
   justify-content: center;
   gap: 828px;
@@ -46,16 +46,7 @@
 
 
 
-.header__subtitle-text {
-  max-width: 960px;
-  color: var(--main-color-text);
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140.625%; /* 30.938px */
-  text-align: center;
-  margin-bottom: 55px;
-}
+
 
 
 
