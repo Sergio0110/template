@@ -1,6 +1,6 @@
 .footer {
   background-image: url('../img/background-footer.jpg');
-  max-width: 1600px;
+  background: cover;
   padding: 45px 0;
 }
 
