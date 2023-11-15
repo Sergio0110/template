@@ -14,7 +14,7 @@
   gap: 35px;
   background-repeat: no-repeat;
   background-image: url('../img/main-img.jpg');
-  background: cover;
+  background-size: cover;
   background-position: center;
 }
 /* псевдоэлемент для создания градиента с тенями значения взял из фигмы*/
