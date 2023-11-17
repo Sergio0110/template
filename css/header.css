@@ -26,7 +26,7 @@
 .header__number {
   color: var(--main-color-text);
   text-align: center;
-  font-size: 23.85px;
+  font-size: clamp(1rem, 0.876rem + 0.61vw, 1.491rem);
   font-weight: 400;
   line-height: normal;
 }
@@ -35,24 +35,17 @@
   text-decoration: underline;
   text-align: center;
   color: var(--main-color-text);
-  font-size: 16px;
+  font-size: clamp(0.813rem, 0.766rem + 0.23vw, 1rem);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
 
-
-
-
-
-
-
-
 /* 1024 */
 
 @media (max-width: 1024px) {
-  .container {
+  .header__container {
     padding: 0 30px;
   }
   .header {
@@ -65,50 +58,34 @@
     width: 60px;
     height: 60px;
   }
-  .header__number {
-    font-size: 21px;
-  }
-  .header__call-me {
-    font-size: 13px;
-  }
-  .header__title {
-    gap: 27.57px;
-  }
-  .header__title-text {
-    font-size: 40px;
-  }
-  .header__subtitle-text {
-    font-size: 18px;
-    width: 754px;
-    margin-bottom: 178.43px;
-  }
-  .header__button {
-    bottom: 70px;
-  }
+
 }
 
 @media (max-width: 780px) {
   .container {
     padding: 0 20px;
   }
+}
 
+@media (max-width: 425px) {
+  .header__title-text {
+    max-width: 290px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .header__number {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 320px) {
 
-  .header__title-text {
-    font-size: 20px;
-  }
-
   .header__subtitle-text {
-    width: 290px;
-    font-size: 14px;
+    max-width: 290px;
     color: rgba(255, 255, 255, 0.75);
   }
 
-  .header__button {
-    font-size: 20px;
-  }
   .container {
     padding: 0 15px;
   }
@@ -130,13 +107,12 @@
     content: "";
     padding-top: 18px;
     background: url('../img/phone-logo.svg');
-    width: 25px;
-    height: 24px;
+    max-width: 25px;
+    max-height: 24px;
     background-repeat: no-repeat;
   }
 
   .header__button {
-    font-size: 16px;
     line-height: normal;
     padding: 10px 28px;
   }
