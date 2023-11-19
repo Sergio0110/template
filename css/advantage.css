@@ -129,15 +129,16 @@ margin-bottom: 25px;
 
 @media (max-width: 860px) {
   .advantage__block-circle {
+    display: flex;
     justify-content: center;
-    gap: 56px;
+    gap: 50px;
   }
 }
 
 @media (max-width: 620px) {
   .advantage__block-circle {
     flex-wrap: wrap;
-    gap: 112px;
+    gap: 84px;
   }
 
   .advantage {
