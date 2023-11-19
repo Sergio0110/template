@@ -41,7 +41,7 @@
 }
 
 .footer__bunch {
-  max: width 1200px;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,9 +135,6 @@
     max-height: 127px;
   }
 
-  .container {
-    padding: 0 15px;
-  }
 
   .footer__logo {
     max-width: 30.104px;

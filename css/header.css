@@ -45,9 +45,6 @@
 /* 1024 */
 
 @media (max-width: 1024px) {
-  .header__container {
-    padding: 0 30px;
-  }
   .header {
     padding-top: 20px;
   }
@@ -58,22 +55,14 @@
     width: 60px;
     height: 60px;
   }
-
 }
 
-@media (max-width: 780px) {
-  .container {
-    padding: 0 20px;
-  }
-}
 
 @media (max-width: 425px) {
   .header__title-text {
     max-width: 290px;
   }
-  .container {
-    padding: 0 20px;
-  }
+
   .header__number {
     font-size: 14px;
   }
@@ -84,10 +73,6 @@
   .header__subtitle-text {
     max-width: 290px;
     color: rgba(255, 255, 255, 0.75);
-  }
-
-  .container {
-    padding: 0 15px;
   }
 
   .header__logo {

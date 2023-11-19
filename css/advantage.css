@@ -83,9 +83,7 @@ margin-bottom: 25px;
   /*================МЕДИАЗАПРОСЫ===============*/
 
 @media (max-width: 1200px) {
-  .container {
-    padding: 0 20px;
-  }
+
   .advantage {
     padding: 70px 0;
   }
@@ -152,9 +150,7 @@ margin-bottom: 25px;
   .advantage {
     padding: 140px 0;
   }
-  .container {
-    padding: 0 15px;
-  }
+
   .advantage__title {
     font-size: 20px;
   }
