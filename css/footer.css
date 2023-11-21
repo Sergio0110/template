@@ -9,12 +9,18 @@
   color: var(--main-color-text);
   font-size: 12px;
   font-weight: 500;
+  line-height: 20px;
+  position: relative;
+  top: 5px;
 }
 
 .footer__made-by {
   color: var(--main-color-text);
   font-size: 12px;
   font-weight: 500;
+  position: relative;
+  left: 39px;
+  top: 6px;
 }
 
 .footer__number {
@@ -32,19 +38,29 @@
 
 .footer__contacts {
   text-align: center;
+  position: relative;
+  left: 79px;
+  top: 2px;
 }
 
 .footer__union {
   display: flex;
   align-items: center;
-  gap: 19px;
+  gap: 38px;
+}
+
+.footer__logo {
+  position: relative;
+  left: 15px;
+  top: 6px;
 }
 
 .footer__bunch {
-  max-width: 1200px;
+  max-width: 1439px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 289px;
 }
 
 @media (max-width: 1600px) {

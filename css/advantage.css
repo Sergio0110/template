@@ -1,5 +1,5 @@
 .advantage {
-padding: 70px 0;
+padding: 74px 0;
 }
 
 .advantage__title {
@@ -11,6 +11,8 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 margin-bottom: 25px;
+letter-spacing: -1px;
+padding-left: 89px;
 }
 
 .advantage__about {
@@ -26,6 +28,8 @@ margin-bottom: 25px;
   font-size: clamp(1rem, 0.906rem + 0.47vw, 1.375rem);
   font-weight: 500;
   line-height: normal;
+  position: relative;
+  left: 45px;
 }
 
 .advantage__about-text::before {
@@ -53,14 +57,19 @@ margin-bottom: 25px;
   font-style: normal;
   font-size: clamp(0.75rem, 0.656rem + 0.47vw, 1.125rem);
   font-weight: 400;
-  line-height: 140.625%;
-  margin-bottom: 50px;
+  line-height: 124.625%;
+  margin-bottom: 69px;
+  position: relative;
+  left: 47px;
+  letter-spacing: -1px;
 }
 
 .advantage__block-circle {
   display: flex;
   justify-content: center;
-  gap: 124px;
+  gap: 35px;
+  position: relative;
+  left: 46px;
 }
 
 .advantage__group-img-sign {
@@ -77,6 +86,7 @@ margin-bottom: 25px;
   font-size: clamp(1.125rem, 1.094rem + 0.16vw, 1.25rem);
   font-style: normal;
   font-weight: 500;
+  letter-spacing: -2px;
 
   }
 

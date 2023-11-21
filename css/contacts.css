@@ -11,6 +11,7 @@
   align-items: center;
   gap: 17px;
   margin-bottom: 17px;
+  padding-top: 7px;
 }
 
 .contacts__title-text {
@@ -20,6 +21,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  left: 32px;
+  position: relative;
+  letter-spacing: -1px;
 }
 
 .contacts__subtitle-text {
@@ -29,6 +33,9 @@
   font-weight: 500;
   line-height: normal;
   margin-bottom: 50px;
+  left: 37px;
+  position: relative;
+  letter-spacing: -1px;
 }
 
 .contacts__decor {
@@ -39,8 +46,10 @@
   font-size: 22px;
   font-weight: 400;
   line-height: normal;
-  width: 423px;
-  height: 44px;
+  width: 451px;
+  height: 49px;
+  left: 46px;
+  position: relative;
 }
 
 .contacts__select-data {
@@ -61,7 +70,11 @@
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
-  padding: 12px 48px;
+  padding: 10px 38px;
+  position: relative;
+  left: 46px;
+  top: -20px;
+  letter-spacing: -1px;
   border-radius: 50px;
   background: var(--color-button-blue);
   box-shadow: 0px 4px 25px 0px var(--box-shaddow);
@@ -74,7 +87,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-top: 50px;
+  padding-top: 31px;
+  left: 38px;
+  position: relative;
+  letter-spacing: 0.5px;
 }
 
 .contacts__agreement {
