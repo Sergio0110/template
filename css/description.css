@@ -64,9 +64,6 @@
   border-radius: 50px;
   background: var(--color-button-blue);
   box-shadow: 0px 4px 25px 0px var(--box-shaddow);
-  position: absolute;
-  left: 740px;
-  bottom: 127px;
 }
 
 /* ==========media============================ */
