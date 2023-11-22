@@ -1,7 +1,7 @@
 .footer {
   background-image: url('../img/background-footer.jpg');
   background: cover;
-  padding: 45px 0;
+  padding: 42px 0;
 }
 
 .footer__company {
@@ -11,36 +11,35 @@
   font-weight: 500;
   line-height: 20px;
   position: relative;
-  top: 5px;
+  top: -1px;
+  left: -19px;
 }
 
 .footer__made-by {
   color: var(--main-color-text);
   font-size: 12px;
   font-weight: 500;
-  position: relative;
-  left: 39px;
-  top: 6px;
+  padding-right: 28px;
 }
 
 .footer__number {
   color: var(--main-color-text);
-  font-size: clamp(0.75rem, 0.483rem + 1.02vw, 1.5rem);
+  font-size: 24px;
   font-weight: 400;
+  padding-bottom: 7px;
 }
 
 .footer__call-me {
   text-decoration: underline;
   color: var(--main-color-text);
-  font-size: clamp(1rem, 0.938rem + 0.31vw, 1.25rem);
+  font-size: 16px;
   font-weight: 400;
 }
 
 .footer__contacts {
   text-align: center;
-  position: relative;
-  left: 79px;
-  top: 2px;
+  padding-right: 3px;
+  padding-bottom: 2px;
 }
 
 .footer__union {
@@ -51,16 +50,15 @@
 
 .footer__logo {
   position: relative;
-  left: 15px;
-  top: 6px;
+  left: 0px;
+  top: 1px;
 }
 
 .footer__bunch {
-  max-width: 1439px;
+  max-width: 1300px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 289px;
 }
 
 @media (max-width: 1600px) {
