@@ -1,7 +1,7 @@
 .footer {
   background-image: url('../img/background-footer.jpg');
   background: cover;
-  padding: 42px 0;
+  padding: 45px 0;
 }
 
 .footer__company {
@@ -33,7 +33,7 @@
   text-decoration: underline;
   color: var(--main-color-text);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 410;
 }
 
 .footer__contacts {

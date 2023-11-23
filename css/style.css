@@ -9,8 +9,8 @@
 @font-face {
   font-family: Roboto;
   src: local('Roboto Regular'), local('Roboto-Regular'), 
-  url('../fonts/roboto-regular.woff2') format(woff2),
-      url('../fonts/roboto-regular.woff') format(woff);
+  url('../fonts/roboto-Regular.woff2') format(woff2),
+      url('../fonts/roboto-Regular.woff') format(woff);
   font-weight: 400;
 }
 

@@ -44,9 +44,9 @@
 
 .description__subtitle-text {
   max-width: 960px;
-  color: var(--main-color-text);
+  color: var(--color-subtitle);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 410;
   text-align: center;
   margin-bottom: 87px;
   line-height: 143.625%;
