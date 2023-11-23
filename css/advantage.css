@@ -138,7 +138,7 @@ margin-bottom: 25px;
 @media (max-width: 620px) {
   .advantage__block-circle {
     flex-wrap: wrap;
-    gap: 84px;
+    gap: 113px;
   }
 
   .advantage {
